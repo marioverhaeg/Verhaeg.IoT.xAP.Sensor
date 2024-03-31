@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verhaeg.IoT.xAP.Sensor", "Verhaeg.IoT.xAP.Sensor.csproj", "{218BADAD-AF31-4195-ACAD-241BE1B60BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verhaeg.IoT.xAP.Client", "..\Verhaeg.IoT.xAP.Client\Verhaeg.IoT.xAP.Client.csproj", "{B1F8BE27-99F1-4E31-99AC-96C0B9FA280D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verhaeg.IoT.Fields", "..\Verhaeg.IoT.Fields\Verhaeg.IoT.Fields.csproj", "{16C4E6C3-1537-423F-BB36-FD99630CC6BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verhaeg.IoT.Configuration", "..\Verhaeg.IoT.Configuration\Verhaeg.IoT.Configuration.csproj", "{5344FBDE-737B-490E-AD72-F7DA70B353BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verhaeg.IoT.MQTT.Client", "..\Verhaeg.IoT.MQTT.Client\Verhaeg.IoT.MQTT.Client.csproj", "{46D6219B-60FF-44A3-B6AE-DD7BA570BE4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verhaeg.IoT.Processor", "..\Verhaeg.IoT.Processor\Verhaeg.IoT.Processor.csproj", "{9CD5148A-1A2E-4A01-8128-D338BA61FF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{218BADAD-AF31-4195-ACAD-241BE1B60BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218BADAD-AF31-4195-ACAD-241BE1B60BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218BADAD-AF31-4195-ACAD-241BE1B60BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218BADAD-AF31-4195-ACAD-241BE1B60BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F8BE27-99F1-4E31-99AC-96C0B9FA280D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F8BE27-99F1-4E31-99AC-96C0B9FA280D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F8BE27-99F1-4E31-99AC-96C0B9FA280D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F8BE27-99F1-4E31-99AC-96C0B9FA280D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C4E6C3-1537-423F-BB36-FD99630CC6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C4E6C3-1537-423F-BB36-FD99630CC6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C4E6C3-1537-423F-BB36-FD99630CC6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C4E6C3-1537-423F-BB36-FD99630CC6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5344FBDE-737B-490E-AD72-F7DA70B353BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5344FBDE-737B-490E-AD72-F7DA70B353BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5344FBDE-737B-490E-AD72-F7DA70B353BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5344FBDE-737B-490E-AD72-F7DA70B353BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D6219B-60FF-44A3-B6AE-DD7BA570BE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D6219B-60FF-44A3-B6AE-DD7BA570BE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D6219B-60FF-44A3-B6AE-DD7BA570BE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D6219B-60FF-44A3-B6AE-DD7BA570BE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD5148A-1A2E-4A01-8128-D338BA61FF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD5148A-1A2E-4A01-8128-D338BA61FF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD5148A-1A2E-4A01-8128-D338BA61FF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD5148A-1A2E-4A01-8128-D338BA61FF25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {193CF08A-1977-4CB8-A506-058B55534007}
+	EndGlobalSection
+EndGlobal
